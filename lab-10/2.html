@@ -29,8 +29,9 @@
         .tasks h4,
         .task p {
             text-align: center;
+            margin: 5px;
         }
-
+        
         fieldset {
             border: none;
             padding: 0;
@@ -40,14 +41,31 @@
             margin-bottom: 5px;
         }
 
-        fieldset label {
+
+        .task fieldset label {
             color: red;
-            display: inline-block;
             width: 172px;
+        }
+
+        .task2 {
+            width: 260px;
+            padding: 3px;
+        }
+
+        .task2 label {
+            width: 60px;
+        }
+
+        .task2 fieldset {
+            background-color: lightskyblue;
+        }
+
+        fieldset label {
+            display: inline-block;
             text-align: right;
         }
 
-        .another label {
+        .task .another label {
             color: #000;
         }
 
@@ -220,7 +238,16 @@
                 <legend>Реєстрація в системі</legend>
                 <fieldset>
                     <h4>Реєстрація в системі</h4>
-
+                    <label for="name">Ім'я: </label>
+                    <input type="text" name="name">
+                    <br>
+                    <label for="password">Пароль: </label>
+                    <input type="password" name="password">
+                </fieldset>
+                <fieldset style="text-align: center;">
+                    <input type="checkbox" name="remember"> Запам'ятати пароль
+                    <br>
+                    <input type="submit" value="Вхід">
                 </fieldset>
             </form>
         </div>
