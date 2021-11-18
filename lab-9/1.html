@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Книжний магазин</title>
+
+  <style>
+    h2 {
+      color: blue;
+    }
+
+    .button {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .order-item {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .order-option {
+      margin-right: 110px;
+      display: table-column;
+    }
+
+    .count {
+      margin-right: 127px;
+    }
+
+    #order-pay {
+      margin-right: 49px;
+    }
+
+    .order-item {
+      margin-top: 10px;
+    }
+
+    input[type="checkbox"] {
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Книжний магазин</h1>
+    </div>
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="#">Новинки</a></li>
+        <li><a href="#">Каталог книг</a></li>
+        <li><a href="#">Форма замовлення</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </div>
+
+    <div class="news">
+      <p class="head">Новинки</p>
+      <img src="/pages/ЛР_№2/2.2/51qO2KoiSDL._SX331_BO1,204,203,200_.jpg" width="150" height="150">
+      <p class="desc">iCone: Steve Jobs</p>
+    </div>
+
+    <div class="main">
+      <h2>Форма замовлення</h2>
+      <p>Для замовлення заповніть поля наступної форми</p>
+      <p>Усі поля обов'язкові для заповнення</p>
+      <div class="order-form">
+        <form>
+          <div class="order-item">
+            <label for="author" class="order-label">Автор</label>
+            <input type="text" name="author" id="author" class="order-input" required>
+          </div>
+
+          <div class="order-item">
+            <label for="title" class="order-label">Назва</label>
+            <input type="text" name="title" id="title" class="order-input" required>
+          </div>
+
+          <div class="order-item">
+            <label for="count" class="order-label">Кількість</label>
+            <input type="text" size="5" name="count" id="count" class="order-input count" required>
+          </div>
+
+          <div class="order-item">
+            <label for="address" class="order-label">Адрес доставки</label>
+            <input type="text" name="address" id="address" class="order-input" required>
+          </div>
+          <div class="order-item">
+            <label for="order-option" class="order-label">Спосіб доставки</label>
+            <div class="order-option">
+              <input type="radio" name="order-option" id="order-option">поштою
+              <br>
+              <input type="radio" name="order-option" id="order-option">кур'єром
+            </div>
+          </div>
+
+          <div class="order-item">
+            <label for="order-pay" class="order-label">Спосіб оплати</label>
+            <select name="order-pay" id="order-pay" required>
+              <option value="cash">Налік</option>
+              <option value="card">Банківська карта </option>
+            </select>
+          </div>
+
+          <div class="order-item">
+            <label for="more" class="order-label">Додаткові побажання</label>
+            <textarea name="more" id="more" cols="25" rows="1" required></textarea>
+          </div>
+          <div class="order-item">
+            <label for="ozna">Ознайомлений з умовами доставки</label>
+            <input type="checkbox" name="ozna" id="ozna">
+          </div>
+          <div class="button"><button type="submit">Підтвердити</button></div>
+        </form>
+      </div>
+    </div>
+    <div class="details">
+      <p><b>E-mail</b> <a href="mailto:info@bookshop.com.ua">info@bookshop.com.ua</a></p>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
