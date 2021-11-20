@@ -1,0 +1,41 @@
+li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section-2, .section-4 {
+    width: 335px;
+}
+
+.section-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px;
+}
+
+footer {
+    text-align: center;
+}
