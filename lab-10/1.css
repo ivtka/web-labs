@@ -1,0 +1,15 @@
+form {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+select, input {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    margin-right: 5px;
+}
