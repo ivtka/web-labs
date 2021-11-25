@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 11 Task 3</title>
+    <link rel="stylesheet" href="3.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Набор HTML и CSS елементов</h1>
+
+      <div class="lists">
+        <button class="list">Главная</button>
+        <select class="list">
+          <option>Уроки</option>
+        </select>
+        <button class="list">Кисти</button>
+        <select class="list">
+          <option>Фотосток</option>
+        </select>
+        <button class="list">О проекте</button>
+        <button class="list">GIMP</button>
+      </div>
+
+      <div class="opt">
+        <input type="search" placeholder="Поиск" />
+        <button>🔎</button>
+        <select>
+          <option>Второй пункт</option>
+          <option>Третий пункт</option>
+          <option>Четвертий пункт</option>
+        </select>
+        <button>▽</button>
+      </div>
+
+      <div class="wrapper-outter">
+        <div class="forma">
+          <div style="display: flex">
+            <div class="inp">Имя:</div>
+            <input size="12" type="text" class="blank" />
+          </div>
+
+          <div style="display: flex; margin-top: 15px">
+            <div class="inp">Email:</div>
+            <input size="12" type="email" class="blank" />
+          </div>
+
+          <button
+            class="but"
+            style="border-radius: 5px; margin-top: 15px; width: 100%"
+          >
+            Отправить
+          </button>
+        </div>
+
+        <div
+          style="
+            margin: 90px 0 740px 220px;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+          <label>
+            <input type="checkbox" />
+            <span class="fake"></span>
+            <span class="text">Красивий</span>
+          </label>
+
+          <label>
+            <input type="checkbox" />
+            <span class="fake"></span>
+            <span class="text">Умный</span>
+          </label>
+
+          <label for="id1">
+            <input type="radio" id="id1" name="name-1"/>
+            <span class="fake-radio"></span>
+            <span class="text">JQuery</span>
+          </label>
+
+          <label for="id1" id="id1">
+            <input type="radio" name="name1">
+            <span class="fake-radio"></span>
+            <span class="text">HTML</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="pages">
+        <button class="but"><< Сюда</button>
+        <button class="but">1</button>
+        <button class="but">3</button>
+        <button class="but">3</button>
+        <button class="but">4</button>
+        <button class="but">5</button>
+        <button class="but">6</button>
+        <button class="but">7</button>
+        <button class="but">...</button>
+        <button class="but">10</button>
+        <button class="but">Туда >></button>
+      </div>
+    </div>
+  </body>
+</html>
