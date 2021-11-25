@@ -101,13 +101,6 @@ h1 {
   width: 800px;
 }
 
-.checkbx {
-  border-radius: 5px;
-  height: 30px;
-  width: 30px;
-  background-color: #3d2e37;
-  box-shadow: inset 0px 0px 5px black;
-}
 
 input[type="checkbox"] {
   display: none;
