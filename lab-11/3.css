@@ -173,9 +173,8 @@ span.fake-radio::before {
   transition: 0.2s;
 }
 
-input[type="radio"]:checked + span.fake-radio:before {
-  opacity: 1;
-  content: "*";
+input[type="radio"]:checked + span.fake-radio::before {
+  content: "•";
   color: green;
 }
 
