@@ -1,0 +1,285 @@
+@import url(https://db.onlinewebfonts.com/c/6f0607d5cef611ac79ee8b28f5c75b1b?family=Birch+Std);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(bg.png);
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header-top {
+  background-image: url(top.png);
+}
+
+#top {
+  padding-top: 12px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Birch Std", sans-serif;
+  font-size: 36px;
+  height: 30px;
+  color: #ffffff;
+}
+
+.logo span {
+  color: #b0b0b0;
+}
+
+.slogan {
+  font-family: "Arial Rounded MT", sans-serif;
+  color: #686868;
+}
+
+.search input {
+  width: 352px;
+  height: 27px;
+  margin-right: 10px;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.21);
+  border: 1px solid #4c4c4c;
+  background-color: #323232;
+}
+
+.search button {
+  background-color: #000000;
+  color: #fff;
+  height: 27px;
+  width: 75px;
+  border: 1px solid #4c4c4c;
+}
+
+.slider {
+  background-color: #000000;
+}
+
+.container#slider {
+  background-image: url(slider.png);
+  filter: grayscale(100%);
+  min-height: 329px;
+  position: relative;
+}
+
+.slider-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 60px;
+}
+
+.slider-bottom p {
+  align-self: center;
+  opacity: 1;
+  padding-left: 21px;
+  font-family: "Arial Rounded MT", sans-serif;
+  color: #dedede;
+}
+
+nav {
+  background-color: #000;
+}
+
+nav ul li {
+  border-right: 1px solid #272727;
+  list-style: none;
+  color: #fff;
+  text-align: center;
+  font-family: "Arial Rounded MT", sans-serif;
+  font-weight: bold;
+  width: 100px;
+  font-size: 14px;
+}
+
+nav ul {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+article {
+  padding-left: 12px;
+  padding-bottom: 26px;
+  font-family: "Arial Rounded MT", sans-serif;
+}
+
+.title {
+  color: #838383;
+  font-weight: bold;
+}
+
+article h1 {
+  font-size: 30px;
+}
+
+article h2 {
+  font-size: 23px;
+}
+
+article p {
+  font-size: 12px;
+  padding-right: 35px;
+}
+
+article p span {
+  color: #0075d0;
+  text-decoration: underline;
+}
+
+article .quote {
+  color: #8b8b8b;
+  font-style: italic;
+  font-size: 12px;
+  padding-left: 22px;
+}
+
+.title span.first-letter {
+  color: #000;
+}
+
+.images-block {
+  display: flex;
+  padding-right: 33px;
+  justify-content: space-between;
+}
+
+.images-block img {
+  margin-top: 15px;
+  align-self: center;
+  width: 200px;
+  height: 143px;
+  border: 12px solid #e2e2e2;
+}
+
+.list-block {
+  margin-top: 14px;
+  margin-left: 50px;
+  margin-right: 90px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-block dt {
+  font-weight: bold;
+}
+
+.list-block dd {
+  margin-left: 30px;
+}
+
+table {
+  margin-top: 15px;
+  width: 962px;
+}
+
+table th:first-child {
+  width: 140px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #d5d5d5;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 10px;
+  width: 270px;
+}
+
+table th {
+  background-color: #efefef;
+}
+
+form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.forms input[type="text"], .forms select {
+  width: 204px;
+  height: 20px;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.15);
+  border: 1px solid #b7b7b7;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.forms label span {
+  margin-left: 6px;
+  font-size: 13px;
+}
+
+.forms select {
+  box-sizing: content-box;
+  color: #000000;
+}
+
+.textarea {
+  margin-top: 15px;
+}
+
+.forms textarea {
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.15);
+  border: 1px solid #b7b7b7;
+  background-color: #ffffff;
+  color: #000;
+  height: 124px;
+  width: 304px;
+}
+
+select option {
+  padding: 10px;
+}
+
+form label {
+  font-size: 14px;
+  color: #010101;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.forms button {
+  margin-top: 15px;
+  padding: 15px;
+  width: 91px;
+  border: 1px solid #000000;
+  background-color: #202020;
+  color: #fff;
+  font-weight: bold;
+}
+
+footer {
+  padding-top: 11px;
+  padding-bottom: 10px;
+  font-family: "Arial Rounded MT", sans-serif;
+  font-size: 13px;
+  color: #656565;
+  font-weight: 400;
+}
+
+footer a {
+  color: #0075d0;
+}
