@@ -134,6 +134,10 @@ export default {
   background-color: #22bb66;
 }
 
+.slide button:hover {
+  background-color: rgb(11, 145, 70);
+}
+
 .slide button:hover,
 button:focus {
   cursor: pointer;
