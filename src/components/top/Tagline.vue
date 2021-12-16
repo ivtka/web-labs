@@ -11,7 +11,7 @@
   justify-content: center;
 }
 
-p {
+.tagline p {
   display: block;
   width: 400px;
   font-size: 16px;
@@ -20,7 +20,7 @@ p {
   letter-spacing: 1.2px;
 }
 
-p::before, p::after {
+.tagline p::before, .tagline p::after {
   background-color: #22bb66;
   content: "";
   display: inline-block;
@@ -30,11 +30,11 @@ p::before, p::after {
   width: 25%;
 }
 
-p::before {
+.tagline p::before {
   right: 1em;
 }
 
-p::after {
+.tagline p::after {
   left: 1em;
 }
 </style>
