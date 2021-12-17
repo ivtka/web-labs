@@ -7,14 +7,16 @@
           <Tag v-for="(tag, index) in tags" :key="index" :tag="tag" id="tag" />
         </div>
       </div>
-      <div class="post-title">{{post_title}}</div>
-      <div class="post-text">{{post_text}}</div>
+      <div class="post-title">{{ post_title }}</div>
+      <div class="post-text">{{ post_text }}</div>
+      <Bottom />
     </div>
   </div>
 </template>
 
 <script>
 import Tag from "./post/Tag.vue";
+import Bottom from "./post/Bottom.vue";
 
 export default {
   name: "Post",
@@ -26,6 +28,7 @@ export default {
   },
   components: {
     Tag,
+    Bottom,
   },
 };
 </script>
